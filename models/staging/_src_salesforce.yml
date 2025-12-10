@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: salesforce
+    database: FERENCKISS_DEMO
+    schema: SALESFORCE_SANDBOX
+    tables:
+      - name: lead
+      - name: task
+      - name: event
+      - name: campaign
+      - name: campaign_member

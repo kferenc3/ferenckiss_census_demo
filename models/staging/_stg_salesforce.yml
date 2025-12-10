@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: stg_lead
+    columns:
+      - name: lead_id
+        tests:
+          - not_null
+          - unique
+
+  - name: stg_task
+    columns:
+      - name: task_id
+        tests:
+          - not_null
+          - unique

@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: mart_lead_scores
+    columns:
+      - name: lead_id
+        tests:
+          - not_null
+          - unique
+      - name: lead_score
+        tests:
+          - not_null
